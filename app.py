@@ -47,4 +47,5 @@ if st.button("Get Recommendations"):
     else:
         st.subheader(f"Top {top_n} recommendations for '{selected_movie}':")
         for i, rec in enumerate(recommendations, 1):
+
             st.write(f"{i}. {rec}")
