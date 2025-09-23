@@ -1,4 +1,3 @@
 ﻿# movie_recommendation_system
 
-<img src="demo/img1.png" alt="workflow" width="70%">
-<img src="demo/img2.png" alt="workflow" width="70%">
+
