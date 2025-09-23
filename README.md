@@ -54,8 +54,8 @@ Since the files are too large to upload, you can download them from the links be
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+   git clone https://github.com/saradhapri/movie_recommendation_system.git
+   cd movie_recommendation_system
    ````
 
 2. Install required dependencies:
@@ -90,3 +90,4 @@ Since the files are too large to upload, you can download them from the links be
 * Inspired by content-based filtering techniques in recommender systems.
 
 ```
+
