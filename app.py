@@ -1,9 +1,3 @@
-# Complete Streamlit app code
-# Save this as app.py in the same directory as movies.pkl and similarity.pkl
-# Install Streamlit if needed: pip install streamlit
-# Run with: streamlit run app.py
-# Note: Ensure pandas and other required libraries are installed
-
 import streamlit as st
 import pickle
 import pandas as pd
@@ -65,10 +59,10 @@ st.markdown("""
 # Load the pickled data
 @st.cache_data
 def load_data():
-    movies = pickle.load(open('movies.pkl', 'rb'))
+    movies = pickle.load(open('models/movies.pkl', 'rb'))
     # Load similarity matrix (chunked or single file)
     try:
-        similarity = pickle.load(open('similarity.pkl', 'rb'))
+        similarity = pickle.load(open('models/similarity.pkl', 'rb'))
     except FileNotFoundError:
         num_chunks = 10  # Adjust based on your generate_pickles.py
         similarity_chunks = []
@@ -133,5 +127,3 @@ if st.button("Get Recommendations"):
 
 # Footer
 st.markdown('<hr><div class="subtitle">Built with Streamlit | Data Source: TMDB 5000 Movie Dataset</div>', unsafe_allow_html=True)
-
-       
