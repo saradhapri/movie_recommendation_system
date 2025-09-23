@@ -1,3 +1,4 @@
+
 # Movie Recommendation System
 
 This project is a **content-based movie recommendation system** built using **Streamlit** and the **TMDB 5000 Movie Dataset**.  
@@ -27,7 +28,7 @@ Since the files are too large to upload, you can download them from the links be
 
 ```
 
-├── data/                      # Data files (can store preprocessed data or models)
+├── data/                      # Data files 
 ├── demo/                      # Demo images/screenshots
 │   ├── img1.png               # Screenshot of input interface
 │   ├── img2.png               # Screenshot of recommendation results
@@ -57,7 +58,6 @@ Since the files are too large to upload, you can download them from the links be
 3. **EDA** → Explore relationships between features, analyze distribution of genres/keywords, inspect dataset consistency.  
 4. **Modeling** → Use `CountVectorizer` and cosine similarity to compute similarity between movies.  
 5. **Evaluation** → Test recommendations manually for accuracy and relevance.  
-6. **Deployment** → Deploy interactive web app using **Streamlit**.
 
 ---
 
@@ -99,6 +99,7 @@ Since the files are too large to upload, you can download them from the links be
 * Add **hybrid filtering** (combine content-based + collaborative filtering).
 * Integrate **poster images and metadata** from TMDB API for richer UI.
 * Optimize similarity calculations for faster performance on larger datasets.
+* Deploy the app on cloud platforms (Heroku, Streamlit Community Cloud, or AWS).
 * Extend recommendation options (e.g., based on actors, directors, or genres specifically).
 
 ---
@@ -118,4 +119,10 @@ Since the files are too large to upload, you can download them from the links be
 * Dataset sourced from TMDB 5000 Movie Dataset (Kaggle).
 * Inspired by content-based filtering techniques in recommender systems.
 
+---
 
+## License
+
+This project is licensed under the terms of the **MIT License**.
+
+```
