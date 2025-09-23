@@ -34,18 +34,21 @@ Preprocessed files (`movies.pkl` and `similarity.pkl`) are stored in the project
 
 ```
 
-├── data/
-│   ├── tmdb\_5000\_movies.csv     # Movies dataset
-│   ├── tmdb\_5000\_credits.csv    # Credits dataset
-├── demo/
-│   ├── img1.png                 # Screenshot of input interface
-│   ├── img2.png                 # Screenshot of recommendation results
-├── app.py                       # Main Streamlit app file
+├── .devcontainer/                  # Dev container configuration
+├── data/                           # Dataset folder
+│   ├── tmdb_5000_movies.csv        # Movies dataset
+│   ├── tmdb_5000_credits.csv       # Credits dataset
+├── demo/                           # Screenshots/demo files
+│   ├── img1.png                    # Screenshot of input interface
+│   ├── img2.png                    # Screenshot of recommendation results
+├── models/                         # Preprocessed serialized model files
+│   ├── movies.pkl                  # Preprocessed movie data
+│   ├── similarity.pkl              # Precomputed similarity matrix
+├── .gitattributes                  # Git attributes config
 ├── Movie Recommendation System.ipynb   # Jupyter Notebook for preprocessing & modeling
-├── movies.pkl                   # Preprocessed movie data (root)
-├── similarity.pkl               # Precomputed similarity matrix (root)
-├── requirements.txt             # Python dependencies
-├── README.md                    # Project documentation
+├── app.py                          # Main Streamlit app file
+├── requirements.txt                # Python dependencies
+├── README.md                       # Project documentation
 
 ````
 
@@ -143,3 +146,4 @@ Preprocessed files (`movies.pkl` and `similarity.pkl`) are stored in the project
 ## License
 
 This project is licensed under the terms of the **MIT License**.
+
