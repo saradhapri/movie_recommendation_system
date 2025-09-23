@@ -1,4 +1,3 @@
-
 # Movie Recommendation System
 
 This project is a **content-based movie recommendation system** built using **Streamlit** and the **TMDB 5000 Movie Dataset**.  
@@ -125,4 +124,4 @@ Since the files are too large to upload, you can download them from the links be
 
 This project is licensed under the terms of the **MIT License**.
 
-```
+
