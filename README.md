@@ -143,5 +143,3 @@ Preprocessed files (`movies.pkl` and `similarity.pkl`) are stored in the project
 ## License
 
 This project is licensed under the terms of the **MIT License**.
-Do you also want me to add a **badge-style button** (like “Open in Streamlit” with an icon) instead of just a text link?
-```
