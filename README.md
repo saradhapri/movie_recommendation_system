@@ -5,6 +5,12 @@ It allows users to discover movies similar to their favorites by analyzing movie
 
 ---
 
+## Live Demo
+
+👉 [Click here to try the app](https://movie-recommender-system7.streamlit.app/)
+
+---
+
 ## Features
 - Content-based filtering using cosine similarity.
 - Interactive web interface built with Streamlit.
@@ -29,8 +35,8 @@ Preprocessed files (`movies.pkl` and `similarity.pkl`) are stored in the project
 ```
 
 ├── data/
-│   ├── tmdb_5000_movies.csv     # Movies dataset
-│   ├── tmdb_5000_credits.csv    # Credits dataset
+│   ├── tmdb\_5000\_movies.csv     # Movies dataset
+│   ├── tmdb\_5000\_credits.csv    # Credits dataset
 ├── demo/
 │   ├── img1.png                 # Screenshot of input interface
 │   ├── img2.png                 # Screenshot of recommendation results
@@ -112,7 +118,6 @@ Preprocessed files (`movies.pkl` and `similarity.pkl`) are stored in the project
 * Add **hybrid filtering** (combine content-based + collaborative filtering).
 * Integrate **poster images and metadata** from TMDB API for richer UI.
 * Optimize similarity calculations for faster performance on larger datasets.
-* Deploy the app on cloud platforms (Heroku, Streamlit Community Cloud, or AWS).
 * Extend recommendation options (e.g., based on actors, directors, or genres specifically).
 
 ---
@@ -124,6 +129,7 @@ Preprocessed files (`movies.pkl` and `similarity.pkl`) are stored in the project
 * Pandas, NumPy
 * Scikit-learn
 * TMDB 5000 Movie Dataset
+* TMDB 5000 Credit Dataset
 
 ---
 
@@ -137,3 +143,5 @@ Preprocessed files (`movies.pkl` and `similarity.pkl`) are stored in the project
 ## License
 
 This project is licensed under the terms of the **MIT License**.
+Do you also want me to add a **badge-style button** (like “Open in Streamlit” with an icon) instead of just a text link?
+```
