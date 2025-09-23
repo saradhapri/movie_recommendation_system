@@ -50,6 +50,17 @@ Since the files are too large to upload, you can download them from the links be
 
 ---
 
+## Project Workflow
+
+1. **Data Collection** → Import TMDB 5000 dataset (`movies.csv`, `credits.csv`).  
+2. **Preprocessing** → Clean missing values, extract features (genres, keywords, cast, crew, overview), and build tags.  
+3. **EDA** → Explore relationships between features, analyze distribution of genres/keywords, inspect dataset consistency.  
+4. **Modeling** → Use `CountVectorizer` and cosine similarity to compute similarity between movies.  
+5. **Evaluation** → Test recommendations manually for accuracy and relevance.  
+6. **Deployment** → Deploy interactive web app using **Streamlit**.
+
+---
+
 ## How to Run
 
 1. Clone the repository:
@@ -74,6 +85,24 @@ Since the files are too large to upload, you can download them from the links be
 
 ---
 
+## Results & Conclusion
+
+* The content-based model provides **reliable and relevant recommendations** based on movie similarity.
+* Users can adjust the number of recommendations dynamically.
+* Insights: Combining multiple metadata fields (cast, crew, genres, keywords, overview) improves recommendation quality compared to using a single feature.
+* The system works well for popular movies and provides meaningful suggestions.
+
+---
+
+## Future Improvements
+
+* Add **hybrid filtering** (combine content-based + collaborative filtering).
+* Integrate **poster images and metadata** from TMDB API for richer UI.
+* Optimize similarity calculations for faster performance on larger datasets.
+* Extend recommendation options (e.g., based on actors, directors, or genres specifically).
+
+---
+
 ## Built With
 
 * Python
@@ -89,5 +118,4 @@ Since the files are too large to upload, you can download them from the links be
 * Dataset sourced from TMDB 5000 Movie Dataset (Kaggle).
 * Inspired by content-based filtering techniques in recommender systems.
 
-```
 
