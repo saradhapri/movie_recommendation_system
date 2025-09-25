@@ -94,7 +94,7 @@ Preprocessed files (`movies.pkl` and `similarity.pkl`) are stored in the `models
    * `data/tmdb_5000_movies.csv`
    * `data/tmdb_5000_credits.csv`
 
-4. Ensure the preprocessed pickle files are available in the project root:
+4. Ensure the preprocessed pickle files are available in the `models/` folder:
 
    * `movies.pkl`
    * `similarity.pkl`
@@ -146,6 +146,7 @@ Preprocessed files (`movies.pkl` and `similarity.pkl`) are stored in the `models
 ## License
 
 This project is licensed under the terms of the **MIT License**.
+
 
 
 
