@@ -26,7 +26,7 @@ The project uses the **TMDB 5000 Movie Dataset**, which is already included in t
 - [tmdb_5000_movies.csv](data/tmdb_5000_movies.csv)  
 - [tmdb_5000_credits.csv](data/tmdb_5000_credits.csv)  
 
-Preprocessed files (`movies.pkl` and `similarity.pkl`) are stored in the project root for faster loading during app execution.
+Preprocessed files (`movies.pkl` and `similarity.pkl`) are stored in the `model/` folder for faster loading during app execution.
 
 ---
 
@@ -146,4 +146,5 @@ Preprocessed files (`movies.pkl` and `similarity.pkl`) are stored in the project
 ## License
 
 This project is licensed under the terms of the **MIT License**.
+
 
