@@ -145,7 +145,8 @@ Preprocessed files (`movies.pkl` and `similarity.pkl`) are stored in the `models
 
 ## License
 
-This project is licensed under the terms of the **MIT License**.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
 
 
 
